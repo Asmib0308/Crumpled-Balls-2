@@ -40,7 +40,7 @@ function draw(){
     dustbin3.display();
     dustbin1.display();
     drawSprites()
-    
+   
 
     textSize(65)
     stroke("black")
@@ -50,7 +50,7 @@ function draw(){
     textSize(30)
     stroke("white")
     fill("black")
-    text("press 'Space' to throw th crumpled ball",588,80)
+    text("press 'Space' to throw the crumpled ball",588,80)
 
 
 }

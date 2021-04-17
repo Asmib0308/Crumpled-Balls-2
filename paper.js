@@ -7,8 +7,8 @@ class Paper {
             'density':0.4
         }
         
-        this.body = Bodies.circle(100,550,15,options);
-        this.width = 60
+        this.body = Bodies.circle(100,520,15,options);
+        this.width = 50
 
         this.image = loadImage("sprites/paper.png")
         World.add(world, this.body);
@@ -22,7 +22,7 @@ class Paper {
         rotate(angle)
         imageMode(CENTER);
         fill ("white")
-        image(this.image,0,0,60, 60);
+        image(this.image,0,0,50, 50);
         pop ()
     }       
 };
