@@ -34,12 +34,13 @@ function draw(){
     background("grey");
     Engine.update(engine);
 
+    paper.display();
     ground.display();
     dustbin2.display();
     dustbin3.display();
     dustbin1.display();
     drawSprites()
-    paper.display();
+    
 
     textSize(65)
     stroke("black")
